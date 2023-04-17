@@ -840,6 +840,16 @@ footer .container div:not(:first-child) ul li {
   margin-bottom: 20px;
 }
 
+.pages-links ul a,
+.u-links ul a {
+  transition: 0.3s;
+}
+
+.pages-links ul a:hover,
+.u-links ul a:hover {
+  color: var(--main-color);
+}
+
 footer .container form {
   display: flex;
   flex-wrap: wrap;
